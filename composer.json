@@ -1,0 +1,26 @@
+{
+    "name": "leap/jdy",
+    "description": "jdy",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "steven",
+            "email": "steven.fan@100tal.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Leap\\Jdy\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leap\\Jdy\\JdyServiceProvider"
+            ]
+        }
+    }
+}
